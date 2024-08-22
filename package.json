@@ -1,0 +1,40 @@
+{
+  "name": "qexport-xlsx",
+  "version": "1.0.0",
+  "description": "Super simple Excel (xlsx) exporter with fast cell size spacing for readability.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algj/qexport-xlsx.git"
+  },
+  "keywords": [
+    "excel",
+    "msexcel",
+    "xlsx",
+    "cell",
+    "cells",
+    "row",
+    "rows"
+  ],
+  "author": "algj",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/algj/qexport-xlsx/issues"
+  },
+  "homepage": "https://github.com/algj/qexport-xlsx#readme",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@types/archiver": "^6.0.2",
+    "@types/he": "^1.2.3",
+    "archiver": "^7.0.1",
+    "fs-extra": "^11.2.0",
+    "he": "^1.2.0"
+  }
+}
