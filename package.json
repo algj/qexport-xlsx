@@ -1,11 +1,10 @@
 {
   "name": "qexport-xlsx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Super simple Excel (xlsx) exporter with fast cell size spacing for readability.",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
